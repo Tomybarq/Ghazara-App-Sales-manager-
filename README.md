@@ -1,39 +1,39 @@
-**Welcome to your Base44 project** 
+# 📊 لوحة التحكم - إدارة المبيعات | شركة غزارة للتجارة والتسويق
 
-**About**
+[Version.1.0.0](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/tomybarq/ghazara-sales-hub)
+[![License](https://img.shields.io/badge/license-MIT-green)]
 
-View and Edit  your app on [Base44.com](http://Base44.com) 
+نظام إدارة مبيعات متكامل بلوحة تحكم تفاعلية، مصمم خصيصاً لشركة *غزارة للتجارة والتسويق* لتتبع المبيعات، إدارة العمليات، وتحليل الأداء التجاري.
 
-This project contains everything you need to run your app locally.
+## 🚀 الميزات الرئيسية
 
-**Edit the code in your local development environment**
+- **لوحة تحكم حية** – إحصائيات فورية عن المبيعات والأرباح.
+- **إدارة العمليات** – إضافة، تعديل، حذف الخيارات مع رفع الصور.
+- **إدارة العملاء** – قاعدة بيانات للعملاء مع سجل الطلبات.
+- **تقارير مبيعات** – تصدير تقارير بصيغ PDF/Excel.
+- **صلاحيات الأدوار** – مدير، موظف مبيعات، مسوق.
+- **إشعارات لحظية** – تنبيهات عند انخفاض المبيعات أو طلبات جديدة.
 
-Any change pushed to the repo will also be reflected in the Base44 Builder.
+## 🛠️ التقنيات المستخدمة
 
-**Prerequisites:** 
+| الطبقة | التقنيات |
+|--------|-----------|
+| Frontend | React.js, Tailwind CSS, Chart.js |
+| Backend  | Node.js, Express.js |
+| Database | PostgreSQL (أو MongoDB) |
+| Auth     | JWT, bcrypt |
+| Storage  | Cloudinary / AWS S3 (للصور) |
 
-1. Clone the repository using the project's Git URL 
-2. Navigate to the project directory
-3. Install dependencies: `npm install`
-4. Create an `.env.local` file and set the right environment variables
+## 📦 متطلبات التشغيل
 
-```
-VITE_BASE44_APP_ID=your_app_id
-VITE_BASE44_APP_BASE_URL=your_backend_url
+- Node.js (v18 أو أحدث)
+- npm أو yarn
+- PostgreSQL (أو MongoDB)
+- Git
 
-e.g.
-VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
-VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
-```
+## ⚙️ خطوات الإعداد والتشغيل
 
-Run the app: `npm run dev`
-
-**Publish your changes**
-
-Open [Base44.com](http://Base44.com) and click on Publish.
-
-**Docs & Support**
-
-Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
-
-Support: [https://app.base44.com/support](https://app.base44.com/support)
+1. **استنساخ المستودع**
+   ```bash
+   git clone https://github.com/tomybarq/ghazara-sales-hub.git
+   cd ghazara-sales-hub
